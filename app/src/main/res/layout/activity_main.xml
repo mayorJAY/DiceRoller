@@ -14,12 +14,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         app:srcCompat="@drawable/empty_dice"
-        tools:src="@drawable/dice_1"/>
+        tools:src="@drawable/dice_1"
+        android:contentDescription="@string/dice" />
     <Button
         android:id="@+id/roll_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/roll" />
+        android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>
